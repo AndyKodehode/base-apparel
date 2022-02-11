@@ -1,0 +1,158 @@
+
+body{
+    margin: 0;
+    display: flex;
+    font-family: 'Josefin Sans' ;
+    
+}
+
+.text-box{
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-size: cover;
+    padding: 120px;
+    padding-right: 150px;
+    padding-left: 200px;
+   
+}
+
+
+.emailbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.e-mail{
+    width: 350px;
+    height: 45px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: transparent;
+    border-color: rgb(221, 220, 220);
+    border-style:solid;
+    color: hsl(0, 36%, 70%);
+    padding-left: 25px;
+    
+    
+}
+
+button{
+    width: 94px;
+    height: 50px;
+    background-image: linear-gradient(to left, rgb(252, 117, 117),rgb(250, 218, 218));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 37px;
+    position: relative;
+    margin-left: 300px;
+    border:none;
+    box-shadow: 1px 10px 15px hsl(0, 71%, 80%);
+    
+    
+}
+
+
+
+h1{
+    font-size: 55px;
+    width: 70px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color:hsl(0, 6%, 24%) ;
+    margin-top: 130px;
+    line-height: 60px;
+
+}
+
+strong{
+    color: hsl(0, 36%, 70%);
+    font-weight:300;
+}
+    
+
+
+p{
+    font-size: 15px;
+    padding-right: 100px;
+    color: rgb(185, 185, 185);
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+
+@media(max-width: 800px)and (min-width: 550px){
+
+body{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+p{
+    padding-right: 0px;
+    padding-left: 10px;
+    text-align: left;
+    width: 350px;
+
+}
+
+
+
+button{
+    width: 65px;
+    margin-left: 320px;
+}
+
+h1{
+    width: 200px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+
+
+.girl-picture{
+width: 100%;
+
+
+
+}
+
+.text-box{
+
+    padding-left: 7em;
+}
+
+
+
+}
+
+@media(min-width: 50px ) and (max-width: 600px){
+
+    .girl-picture{
+        display: none;
+    }
+
+    .text-box{
+        padding-left: 4em;
+    }
+
+    button{
+        width: 70px;
+        height: 47px;
+        margin-left: 220px;
+    }
+
+    .e-mail{
+        width: 250px;
+        padding-left: 20px;
+
+        
+    }
+
+    p{
+        padding-right: 0px;
+        text-align:left;
+        width: 350px;
+    
+    }
+
+}
